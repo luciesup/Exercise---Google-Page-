@@ -1,0 +1,149 @@
+/*TOUTE LA PAGE */
+
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+div {
+  margin: 0 10px;
+}
+
+/*HEADER */
+
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 40px;
+}
+
+
+input[name="bouton-connexion"] {
+  margin: 0px 2px;
+  height : 35px;
+  width: 112px;
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #1A73E8; /*Couleur Google */
+  margin: 0px 8px;
+  padding: 9px 23px;
+}
+
+input[name="bouton-connexion"]:hover {  
+  background: #4683EA;           /*Couleur Google */
+  border: 1px solid transparent /*solid transparent "Code trouver avec mon groupe sur la page Google" */
+}
+
+.element {
+  font-size: 13px
+  padding: 3px;
+  display: inline-block;
+}
+
+/*MILIEU DE LA PAGE */
+
+#centre {
+  padding: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#logo {
+  height: 92px;
+  width: 272px;
+}
+
+#barre-de-recherche {
+  width: 570px;
+  height: 40px;
+  border-radius: 40px;
+  text-indent: 20px;
+  border: 1px solid #E5E5E5;
+  margin-top: 30px;
+}
+
+#barre-de-recherche:hover {
+  box-shadow: 2px 3px 5px #E5E5E5;
+}
+
+/*bouton chance & recherche */
+
+input[name="bouton-chance"] {
+  margin: 11px 4px;
+  height : 36px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  color: #3c4043;
+  background-color: #F8F9FA;
+}
+
+input[name="bouton-rechercher"] {
+  margin: 11px 4px;
+  height : 36px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  color: #3c4043;
+  background-color: #F8F9FA;
+}
+
+input[name="bouton-chance"]:hover {
+  box-shadow: 2px 3px 5px #F8F9FA;
+  border : 1px solid #E5E5E5 ;
+}
+
+input[name="bouton-rechercher"]:hover {
+  box-shadow: 2px 3px 5px #F8F9FA;
+  border : 1px solid #E5E5E5 ;
+}
+
+
+/*FOOTER */
+
+footer {
+  margin-top: 105px;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+#footer-1 {
+  padding: 15px 30px;
+  border-bottom: 1px solid #E5E5E5;
+  font-size: 15px;
+  color: #737373;
+  background: #F2F2F2;
+}
+
+
+#footer-2 {
+  padding: 15px 20px;
+  color: #737373;
+  background: #F2F2F2;
+}
+
+#footer-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+img[src="feuille.png"]{
+  height: 14px;
+  margin-right: -5px;
+  margin-left: 40px;
+  
+}
+
+div [class="element2"]{
+  margin-left: -20px;
+  margin-right: 40px;
+  } 
+
+
+
+
+
